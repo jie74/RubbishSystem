@@ -22,11 +22,15 @@ sql文件中还未create database，可以先创建数据库rubbishsort，选择
 管理员功能如下：
 查看修改用户预约状态
 
-![image](https://github.com/jie74/RubbishSystem/blob/main/img/index.png)
-![image](https://github.com/jie74/RubbishSystem/blob/main/img/login.png)
-![image](https://github.com/jie74/RubbishSystem/blob/main/img/home.png)
-![image](https://github.com/jie74/RubbishSystem/blob/main/img/home2.png)
-![image](https://github.com/jie74/RubbishSystem/blob/main/img/knowledge.png)
-![image](https://github.com/jie74/RubbishSystem/blob/main/img/topic.png)
-![image](https://github.com/jie74/RubbishSystem/blob/main/img/single.png)![image](https://github.com/jie74/RubbishSystem/blob/main/img/judge.png)![image](https://github.com/jie74/RubbishSystem/blob/main/img/score.png)![image](https://github.com/jie74/RubbishSystem/blob/main/img/appointment.png)![image](https://github.com/jie74/RubbishSystem/blob/main/img/personal.png)
-![image](https://github.com/jie74/RubbishSystem/blob/main/img/admin_appoint.png)
+![image](https://github.com/jie74/RubbishSystem/blob/main/img/index.jpg)
+![image](https://github.com/jie74/RubbishSystem/blob/main/img/login.jpg)
+![image](https://github.com/jie74/RubbishSystem/blob/main/img/home.jpg)
+![image](https://github.com/jie74/RubbishSystem/blob/main/img/home2.jpg)
+![image](https://github.com/jie74/RubbishSystem/blob/main/img/knowledge.jpg)
+![image](https://github.com/jie74/RubbishSystem/blob/main/img/topic.jpg)
+![image](https://github.com/jie74/RubbishSystem/blob/main/img/single.jpg)
+![image](https://github.com/jie74/RubbishSystem/blob/main/img/judge.jpg)
+![image](https://github.com/jie74/RubbishSystem/blob/main/img/score.jpg)
+![image](https://github.com/jie74/RubbishSystem/blob/main/img/appointment.jpg)
+![image](https://github.com/jie74/RubbishSystem/blob/main/img/personal.jpg)
+![image](https://github.com/jie74/RubbishSystem/blob/main/img/admin_appoint.jpg)
