@@ -1,4 +1,6 @@
 期末小组大作业 有两名搭档
+以为自己使用的是MVC框架，但老师说不是，一个动得了的网站
+php想用MVC框架要使用thinkPHP
 
 项目名为RSystemhe2，直接放于服务器根目录下，如www/或htdocs/下。数据库名为rubbishsort。
 sql文件中还未create database，可以先创建数据库rubbishsort，选择utf8_general_ci，再导入sql文件。
