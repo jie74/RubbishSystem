@@ -1,0 +1,2 @@
+[2020-12-21 22:12:43,431] [18248] ERROR main.main(D:\xampp\htdocs\RSystemhe2\static\connect.php:25) - 打开数据库失败！系统错误信息为：Unknown database 'rubbish'
+[2020-12-21 22:12:43,458] [18248] ERROR main.main(D:\xampp\htdocs\RSystemhe2\static\connect.php:33) - 数据库连接失败！系统错误信息为：SQLSTATE[HY000] [1049] Unknown database 'rubbish'

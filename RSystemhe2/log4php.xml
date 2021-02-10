@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration xmlns="http://logging.apache.org/log4php/">
+    <!-- 标准控制台输出的appender -->
+    <appender name="STDOUT" class="LoggerAppenderConsole">
+        <param name="threshold" value="debug"/>
+        <layout class="LoggerLayoutPattern" >
+            <param name="ConversionPattern" value="[%date{Y-m-d H:i:s,u}] [%t] %-5p %l - %message%newline%ex"/>
+        </layout>
+    </appender>
+                                                                                                                                                                                                                                                                                                                                                                         
+    <!-- 记录所有ERROR日志的appender -->
+    <appender name="ERROR-ALL" class="LoggerAppenderDailyFile">
+        <layout class="LoggerLayoutPattern" >
+            <param name="ConversionPattern" value="[%date{Y-m-d H:i:s,u}] [%t] %-5p %l - %message%newline%ex"/>
+        </layout>
+        <param name="file" value="log/php-error.log.%s" />
+        <param name="threshold" value="error"/>
+        <param name="append" value="true" />
+        <param name="datePattern" value="Y-m-d" />
+    </appender>
+                                                                                                                                                                                                                                                                                                                                                                         
+    <!-- 记录所有DEBUG日志的appender -->
+    <appender name="DEBUG-ALL" class="LoggerAppenderDailyFile">
+        <layout class="LoggerLayoutPattern" >
+            <param name="ConversionPattern" value="[%date{Y-m-d H:i:s,u}] [%t] %-5p %l - %message%newline%ex"/>
+        </layout>
+        <param name="file" value="log/php-debug.log.%s" />
+        <param name="threshold" value="debug"/>
+        <param name="append" value="true" />
+        <param name="datePattern" value="Y-m-d" />
+    </appender>
+                                                                                                                                                                                                                                                                                                                                                                         
+    <!-- 记录所有INFO日志的appender -->
+    <appender name="INFO-ALL" class="LoggerAppenderDailyFile">
+        <layout class="LoggerLayoutPattern" >
+            <param name="ConversionPattern" value="[%date{Y-m-d H:i:s,u}] [%t] %-5p %l - %message%newline%ex"/>
+        </layout>
+        <param name="file" value="log/php-info.log.%s" />
+        <param name="threshold" value="info"/>
+        <param name="append" value="true" />
+        <param name="datePattern" value="Y-m-d" />
+    </appender>
+                                                                                                                                                                                                                                                                                                                                                                         
+    <root>
+        <level value="warn"/>
+        <appender-ref ref="STDOUT"/>
+        <appender-ref ref="DEBUG-ALL"/>
+        <appender-ref ref="INFO-ALL"/>
+        <appender-ref ref="ERROR-ALL"/>
+    </root>
+</configuration>

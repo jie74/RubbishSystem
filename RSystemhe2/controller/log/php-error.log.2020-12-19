@@ -1,0 +1,7 @@
+[2020-12-19 23:50:32,780] [972] ERROR main.main(D:\xampp\htdocs\RSystemhe2\static\connect.php:23) - 数据库服务器连接失败！系统错误信息为：Access denied for user 'root'@'localhost' (using password: NO)
+[2020-12-19 23:50:32,783] [972] ERROR main.main(D:\xampp\htdocs\RSystemhe2\static\connect.php:24) - 数据库服务器连接失败！系统错误信息为：Access denied for user 'root'@'localhost' (using password: NO)
+[2020-12-19 23:50:57,355] [972] ERROR main.main(D:\xampp\htdocs\RSystemhe2\static\connect.php:23) - 数据库服务器连接失败！系统错误信息为：Access denied for user 'root'@'localhost' (using password: NO)
+[2020-12-19 23:50:57,357] [972] ERROR main.main(D:\xampp\htdocs\RSystemhe2\static\connect.php:24) - 数据库服务器连接失败！系统错误信息为：Access denied for user 'root'@'localhost' (using password: NO)
+[2020-12-19 23:52:29,053] [972] ERROR main.main(D:\xampp\htdocs\RSystemhe2\static\connect.php:24) - 数据库服务器连接失败！系统错误信息为：Access denied for user 'root'@'localhost' (using password: NO)
+[2020-12-19 23:57:07,200] [972] ERROR main.main(D:\xampp\htdocs\RSystemhe2\static\connect.php:39) - 数据库服务器连接失败！系统错误信息为：SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+[2020-12-19 23:59:24,066] [972] ERROR main.main(D:\xampp\htdocs\RSystemhe2\static\connect.php:36) - 数据库服务器连接失败！系统错误信息为：SQLSTATE[HY000] [1049] Unknown database 'rubbish'

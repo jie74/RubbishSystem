@@ -1,0 +1,45 @@
+/* CSS Document */
+
+.tname {
+	float:left;
+	text-align:center;
+	width:15%;
+}
+
+.tablerow1 {
+	padding: 5px;
+	line-height: 15px;
+	background-color: #F1FEFA;
+	margin-bottom: 3px;
+}
+.tablerow2 {
+	padding: 5px;
+	line-height: 15px;
+	background-color: #C6BFBD;
+	margin-bottom: 3px;
+}
+
+.contain {
+	text-align:center;
+}
+
+.centertext {
+	display:inline-block;
+ 　　 width:500px;
+}
+
+table {
+	border-collapse:collapse;
+}	
+
+table th,td {	
+	border: 1.5px solid black;
+}
+
+table tr {	
+	height: 30px;
+}
+
+.kclass {
+	width:50px;
+}

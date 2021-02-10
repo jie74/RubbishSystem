@@ -1,0 +1,132 @@
+@charset "utf-8";
+.nav{ 
+	height:40px; 
+	line-height:40px;
+	text-align:center; 
+}
+.nav ul li{ 
+	float:left; 
+	width:280px; 
+	text-align:center; 
+	font-size:20px
+}
+.nav ul li a{     
+	color:#fff;
+	width:144px; 
+	display:block; 
+	height:100px
+}
+.btn3 {
+ background: #92c7eb;
+ background-size: cover;
+ background-position: center;
+ display: inline-block;
+ border: none;
+ padding: 20px;
+ width: 80px;
+ border-radius: 900px;
+ height: 80px;
+ transition: all 0.5s;
+ cursor: pointer;
+}
+.btn3:hover
+{
+ width: 85px;
+ height: 85px;
+}
+.box{
+    position: absolute;
+    top:45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    /*height: 40px;*/
+    padding: 40px;
+    background: rgba(0,0,0,.8);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    border-radius:10px;
+}
+.box h2{
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+}
+.box .inputBox{
+    position: relative;
+}
+.box .inputBox input{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+.box .inputBox label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    letter-spacing: 1px;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+}
+.box .inputBox input:focus ~ label,
+.box .inputBox input:valid ~ label
+{
+    top:-18px;
+    left:0;
+    color: #03a9f4;
+    font-size: 12px;
+}
+table.imagetable {
+
+    font-family: verdana,arial,sans-serif;
+
+    font-size:11px;
+
+    color:#333333;
+
+    border-width: 1px;
+
+    border-color: #999999;
+
+    border-collapse: collapse;
+
+}
+
+table.imagetable th {
+
+    background:#b5cfd2 url('images/cell-blue.jpg');
+
+    border-width: 1px;
+
+    padding: 8px;
+
+    border-style: solid;
+
+    border-color: #999999;
+
+}
+
+table.imagetable td {
+
+    background:#dcddc0 url('images/cell-grey.jpg');
+
+    border-width: 1px;
+
+    padding: 8px;
+
+    border-style: solid;
+
+    border-color: #999999;
+
+}

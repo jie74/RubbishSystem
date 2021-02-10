@@ -1,0 +1,31 @@
+body {
+	background-image: url('../images/bg2.jpg');
+	background-repeat: no-repeat;
+	background-size:cover;
+	font-family: Trebuchet MS;
+	font-size: 12px;
+	background-attachment: scroll;
+}
+
+.bar {
+	text-align: center;
+	background-color: #CAFFFF;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding-top: 1px;
+}
+
+.bar li {
+	display:inline;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #000000;
+	padding: 0 7px 0 7px;
+}
+.bar a {
+	color: #000000;
+}
+.bar a:hover {
+	color: #f8cd04;
+	text-decoration: underline;
+}

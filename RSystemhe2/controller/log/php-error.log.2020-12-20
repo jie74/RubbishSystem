@@ -1,0 +1,4 @@
+[2020-12-20 00:01:53,238] [972] ERROR main.main(D:\xampp\htdocs\RSystemhe2\static\connect.php:37) - 数据库服务器连接失败！系统错误信息为：SQLSTATE[HY000] [1049] Unknown database 'rubbish'
+[2020-12-20 00:02:25,789] [972] ERROR main.main(D:\xampp\htdocs\RSystemhe2\static\connect.php:37) - 数据库服务器连接失败！系统错误信息为：SQLSTATE[HY000] [1049] Unknown database 'rubbish'
+[2020-12-20 00:04:29,464] [972] ERROR main.main(D:\xampp\htdocs\RSystemhe2\static\connect.php:25) - 打开数据库失败！系统错误信息为：Unknown database 'rubbish'
+[2020-12-20 00:04:29,468] [972] ERROR main.main(D:\xampp\htdocs\RSystemhe2\static\connect.php:37) - 数据库服务器连接失败！系统错误信息为：SQLSTATE[HY000] [1049] Unknown database 'rubbish'
